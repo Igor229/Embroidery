@@ -29,8 +29,24 @@ h1,h2,h3 {
     border: none;
     background-color: #0E1112;
     text-transform: uppercase;
+    color: #fff;
 
     & a {
         color: #fff;
+    }
+}
+
+.title {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: capitalize;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 35%;
+        border-bottom: 1px solid grey;
     }
 }

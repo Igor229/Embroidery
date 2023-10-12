@@ -8,7 +8,7 @@ function AboutMe () {
                 <img src={aboutImage} alt='aboutImage' className='about__image'/>
                 <div className='info-container'>
                     <div className='about__info'>
-                        <h2 className='about__info-title'>About Me</h2>
+                        <h2 className='about__info-title title'>About Me</h2>
                         <p className='about__info-text'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Senectus scelerisque viverra at id aenean scelerisque.

@@ -5,7 +5,7 @@ function Portfolio () {
         <section className='portfolio'>
             <div className='wrapper'>
                 <div className='portfolio__actions'>
-                    <h2 className='portfolio__actions-title'>Portfolio</h2>
+                    <h2 className='portfolio__actions-title title'>Portfolio</h2>
                     <div className='portfolio__nav nav'>
                     <ul className='nav__list'>
                         <li className='nav__item portfolio__nav-item'><a href='#' className='nav__link'>All</a></li>

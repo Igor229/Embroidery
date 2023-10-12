@@ -1,0 +1,36 @@
+.footer {
+    margin: 140px 90px 10px 90px;
+    text-align: center;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        &-title {
+            font-size: 32px;
+            font-weight: 400;
+            padding-bottom: 20px;
+        }
+
+        &-text {
+            line-height: 30px;
+            letter-spacing: 0.32px;
+            padding-bottom: 5px;
+        }
+    }
+
+    &__credits {
+        padding-top: 60px;
+        color: #ABB1B4;
+        & span {
+            color: #484B4B;
+        }
+    }
+}

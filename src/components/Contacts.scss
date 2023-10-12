@@ -1,0 +1,47 @@
+.contacts {
+    margin: 30px 90px 0 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    &__image {
+        height: 100%;
+    }
+
+    &__actions {
+        display: flex;
+        flex-direction: column;
+
+        &-subTitle {
+            padding-top: 30px;
+            line-height: 30px;
+            letter-spacing: 0.32px;
+        }
+    }
+}
+
+.form {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+
+    &__names {
+        display: flex;
+        gap: 10px;
+    }
+
+    &-item {
+        width: 100%;
+        height: 46px;
+        border: none;
+        border-bottom: 1px solid #757879;
+    }
+
+    &-button {
+        margin-top: 50px;
+        width: 165px;
+    }
+}
