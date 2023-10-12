@@ -9,8 +9,6 @@ function AboutMe () {
                 <div className='info-container'>
                     <div className='about__info'>
                         <h2 className='about__info-title'>About Me</h2>
-                        <hr/>
-
                         <p className='about__info-text'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Senectus scelerisque viverra at id aenean scelerisque.

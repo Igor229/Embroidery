@@ -27,15 +27,19 @@
         flex-direction: column;
         padding: 0 20%;
 
-        & hr {
-            width: 30%;
-        }
         &-title {
             font-size: 56px;
             font-style: normal;
             font-weight: 700;
             line-height: 80px;
             text-transform: capitalize;
+
+            &::after {
+                content: '';
+                display: block;
+                width: 35%;
+                border-bottom: 1px solid grey;
+            }
         }
 
         &-text {

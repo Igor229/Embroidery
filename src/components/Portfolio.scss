@@ -1,0 +1,94 @@
+.portfolio {
+    margin: 0 90px;
+
+    &__actions {
+        padding-left: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        &-title {
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80px;
+            text-transform: capitalize;
+
+            &::after {
+                content: "";
+                display: block;
+                width: 35%;
+                border-bottom: 1px solid grey;
+            }
+        }
+    }
+
+    &__nav {
+        padding-top: 35px;
+
+        &-item, a {
+            text-transform: uppercase;
+            color: #8F9294;
+        }
+    }
+}
+
+.gallary {
+    display: grid; 
+    grid-template-columns: repeat(3, 350px); 
+    grid-template-rows: repeat(4, 250px); 
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    grid-template-areas: 
+    "first fourth six"
+    "second fourth seven"
+    "second fifth seven"
+    "third fifth seven";
+
+    &__item {
+        &-first {
+            grid-area: first;
+            background-image: url(../assets/images/Portfolio/1_1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-second {
+            grid-area: second;
+            background-image: url(../assets/images/Portfolio/1_2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-third {
+            grid-area: third;
+            background-image: url(../assets/images/Portfolio/1_3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-fourth {
+            grid-area: fourth;
+            background-image: url(../assets/images/Portfolio/2_1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-fifth {
+            grid-area: fifth;
+            background-image: url(../assets/images/Portfolio/2_2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-six {
+            grid-area: six;
+            background-image: url(../assets/images/Portfolio/3_1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        &-seven {
+            grid-area: seven;
+            background-image: url(../assets/images/Portfolio/3_2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+
+}
