@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap');
+$titles-font: 'Playfair Display', serif;
+$main-font: 'Mulish', sans-serif;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, ul {
+    list-style: none;
+    text-decoration: none;
+    color: #484B4B;
+}
+
+body {
+    color: #484B4B;
+    font-family: $main-font;
+}
+
+h1,h2,h3 {
+    color: #0E1112;
+    font-family: $titles-font;
+}
+
+.button {
+    height: 45px;
+    border: none;
+    background-color: #0E1112;
+    text-transform: uppercase;
+
+    & a {
+        color: #fff;
+    }
+}
